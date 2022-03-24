@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.products {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 25px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+}
+.col-4 img {
+  max-width: 100%;
+}
+.col-4:hover {
+  transform: translateY(-5px);
+}
+.checked {
+  color: orange;
+}
